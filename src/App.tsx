@@ -2,6 +2,7 @@ import './App.css'
 import useAdvice from './hooks/useAdvice';
 import { useEffect } from 'react';
 import Spinner from './components/Spinner';
+import image from './assets/icon-dice.svg';
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
           <div className='advice-divider'></div>
         </div>
         <div className='image-section' onClick={handleClick}>
-          <img className='dice' src="src/assets/icon-dice.svg" alt="dice icon" />
+          <img className='dice' src={image} alt="dice icon" />
         </div>
       </div>
       
