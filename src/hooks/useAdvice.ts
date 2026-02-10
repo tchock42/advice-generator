@@ -22,7 +22,8 @@ const useAdvice = () => {
         setSpinner(true);
         setNotFound(false);
         try {
-            const url = 'https://api.adviceslip.com/advice';
+            // date.now() is used to avoid caching issues with the API, as it returns the same advice if the request is made within a short period of time
+            const url = `https://api.adviceslip.com/advice?t=${Date.now()}`;
             
             const response = await axios(url);
             if(response.status !== 200){

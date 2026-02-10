@@ -50,8 +50,7 @@ See above a picture of my solution on the active state. The dice icon is a hover
 
 ### What I learned
 
-I an a little rusted in React and I'm still learning how to use it effectively. So, this is my first time using React in a real-world project. I'm still learning how to use it effectively, so I'll be working on improving my skills.
-
+I an a little rusted in React and I'm still learning how to use it effectively. I use this project to practice custom hooks and hooks like useState and useEffect.
 I like the idea of using ternary operators in my code. I'm still learning how to use them effectively, so I'll be working on it.
 
 
