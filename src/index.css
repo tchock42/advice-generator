@@ -1,0 +1,24 @@
+:root {
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --blue200: hsl(193, 38%, 86%);
+  --green200: hsl(150, 100%, 66%);
+
+  --blue600: hsl(217, 19%, 38%);
+  --blue900: hsl(217, 19%, 24%);
+  --blue950: hsl(218, 23%, 16%);
+}
+html{
+  /* font-size: 62.5%; */
+}
+body{
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-optical-sizing: auto;
+  background-color: var(--blue950);
+}
